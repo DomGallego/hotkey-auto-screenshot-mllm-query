@@ -1,11 +1,18 @@
 # hotkey-auto-screenshot-mllm-query
 
-A Python script that captures a screenshot with a hotkey, prompts for a question, and sends both to a Gemini model for a response.
+A Python application that captures screenshots with a hotkey, processes them with Google's Gemini model, and provides responses via command line or GUI interface.
 
 ## Features
-- Press **Ctrl+Alt+1** to run `process_screenshot_and_question`.
-- Takes a screenshot with `take_screenshot` from `main.py`.
-- Prompts for user input, sends data to Gemini, and prints the result.
+- Press **Ctrl+Alt+1** to capture a screenshot
+- Two interface options:
+  - CLI version ([main.py](main.py)): Command-line interface with simple text output
+  - GUI version ([main_gui_skeletal.py](main_gui_skeletal.py)): Graphical interface with chat-like display
+- Real-time statistics including:
+  - Response time
+  - Screenshot size
+  - Token usage metrics
+- Automatic temporary file management
+- Support for the Gemini 2.0 Flash model
 
 ## Requirements
 
@@ -19,15 +26,24 @@ A Python script that captures a screenshot with a hotkey, prompts for a question
    ```bash
    pip install keyboard pyautogui Pillow google-generativeai
    ```
-3. Run
-    ```python
-    python main.py
-    ```
-4. Usage
+3. Usage
 
-    Press **Ctrl+Alt+1** to:
+    Command Line Interface
 
-        Capture screenshot -> Input your question -> Get answer to your query
+        ```python
+        python main.py
+        ```
+    GUI Interface
+
+        ```python
+        python main_gui_skeletal.py
+        ```
+    
+4. Operation
+    - Press Ctrl+Alt+1 to capture a screenshot
+    - Enter your question about the screenshot
+    - View the Gemini model's response and analysis statistics
+
 
 5. Exit
 
