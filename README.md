@@ -1,0 +1,1 @@
+# hotkey-auto-screenshot-mllm-query
