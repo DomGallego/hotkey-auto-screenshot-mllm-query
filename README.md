@@ -42,7 +42,7 @@ A Python application that captures screenshots with a hotkey, processes them wit
 4. Operation
     - Press Ctrl+Alt+1 to capture a screenshot
     - Enter your question about the screenshot
-    - View the Gemini model's response and analysis statistics
+    - View the Gemini model's response and analyse statistics
 
 
 5. Exit
