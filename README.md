@@ -48,3 +48,18 @@ A Python application that captures screenshots with a hotkey, processes them wit
 5. Exit
 
     Press Esc to stop the script.
+
+
+TO-DO:
+
+	⬜ make it always running in background
+
+	⬜ whenever the hotkey is pressed, it must bring the popup window to the front
+
+	⬜ make the UI more modern
+
+	⬜ show the token stats only when hovering through that specific response
+
+	⬜ check if there are faster mllm's
+    
+	⬜ add internet search
