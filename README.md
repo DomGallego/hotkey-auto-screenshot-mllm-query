@@ -30,14 +30,14 @@ A Python application that captures screenshots with a hotkey, processes them wit
 
     Command Line Interface
 
-        ```python
-        python main.py
-        ```
+    ```python
+    python main.py
+    ```
     GUI Interface
 
-        ```python
-        python main_gui_skeletal.py
-        ```
+    ```python
+    python main_gui_skeletal.py
+    ```
     
 4. Operation
     - Press Ctrl+Alt+1 to capture a screenshot
